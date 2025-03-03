@@ -39,7 +39,7 @@ export const RESUME_DATA = {
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/yl-tsang-leephd-799605105/",
+        url: "https://www.linkedin.com/in/yi-tsang-lee-phd-799605105/",
         icon: LinkedInIcon,
       },
       {
