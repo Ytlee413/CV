@@ -44,7 +44,7 @@ export const RESUME_DATA = {
       },
       {
         name: "Google Scholar",
-        url: "https://scholar.google.com/citations?user=YOUR_ID",
+        url: "https://scholar.google.com/citations?user=2LVNem4AAAAJ",
         icon: ScholarIcon,
       }
     ],
