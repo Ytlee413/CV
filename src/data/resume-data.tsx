@@ -27,7 +27,7 @@ export const RESUME_DATA = {
     </>
   ),
   avatarUrl: "https://avatars.githubusercontent.com/u/91809801?s=400&u=f330e4ed93241cd4444cf79aa8cce56c15ce3ffc&v=4", // No avatar URL provided, retaining original as placeholder
-  personalWebsiteUrl: null, // No personal website provided
+  personalWebsiteUrl: undefined, // No personal website provided
   contact: {
     email: "mickey413@gmail.com",
     tel: "979-985-2756",
