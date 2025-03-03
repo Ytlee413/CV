@@ -7,225 +7,277 @@ import {
   ParabolLogo,
 } from "@/images/logos";
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
+import { ScholarIcon } from "@/components/icons/ScholarIcon";
 
 export const RESUME_DATA = {
-  name: "Bartosz Jarocki",
-  initials: "BJ",
-  location: "Wrocław, Poland, CET",
-  locationLink: "https://www.google.com/maps/place/Wrocław",
+  name: "Yi-Tsang Lee",
+  initials: "YTL",
+  location: "San Diego, CA", // Updated to your current location
+  locationLink: "https://www.google.com/maps/place/San+Diego,+CA", // Updated link
   about:
-    "Detail-oriented Full Stack Engineer dedicated to building high-quality products.",
+    "Dedicated immunologist with expertise in cancer immunotherapy, T cell biology, and protein engineering.",
   summary: (
     <>
-      Frontend-focused Full Stack Engineer specializing in high-performance
-      React applications, scalable Node.js services, and real-time collaboration
-      systems. Experienced in technical architecture design and remote team
-      leadership.
+      Results-driven PhD immunologist with over six years of experience in
+      molecular biology, protein engineering, and immunotherapy research.
+      Currently a Postdoctoral Fellow at La Jolla Institute for Immunology,
+      focusing on T cell biology and cancer immunotherapy for translational
+      advancements. Skilled in NGS, CRISPR genome editing, and optogenetic
+      systems, with a proven track record in high-impact research and mentorship.
     </>
   ),
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
-  personalWebsiteUrl: "https://jarocki.me",
+  avatarUrl: "https://avatars.githubusercontent.com/u/91809801?s=400&u=f330e4ed93241cd4444cf79aa8cce56c15ce3ffc&v=4", // No avatar URL provided, retaining original as placeholder
+  personalWebsiteUrl: null, // No personal website provided
   contact: {
-    email: "bartosz.jarocki@hey.com",
-    tel: "+48530213401",
+    email: "mickey413@gmail.com",
+    tel: "979-985-2756",
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
+        url: "https://github.com/Ytlee413",
         icon: GitHubIcon,
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
+        url: "https://www.linkedin.com/in/yl-tsang-leephd-799605105/",
         icon: LinkedInIcon,
       },
       {
-        name: "X",
-        url: "https://x.com/BartoszJarocki",
-        icon: XIcon,
-      },
+        name: "Google Scholar",
+        url: "https://scholar.google.com/citations?user=YOUR_ID",
+        icon: ScholarIcon,
+      }
     ],
   },
   education: [
     {
-      school: "Wrocław University of Technology",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
-      start: "2007",
-      end: "2010",
+      school: "Texas A&M University",
+      degree: "Doctor of Philosophy - PhD, Medical Sciences",
+      start: "2018",
+      end: "2024",
+    },
+    {
+      school: "Texas A&M University",
+      degree: "Master of Science (M.S.), Biotechnology",
+      start: "2015",
+      end: "2017",
+    },
+    {
+      school: "China Medical University",
+      degree: "BS, Nutrition",
+      start: "2009",
+      end: "2013",
     },
   ],
   work: [
     {
-      company: "Film.io",
-      link: "https://film.io",
-      badges: ["Remote", "React", "Next.js", "TypeScript", "Node.js"],
-      title: "Software Architect",
-      logo: ConsultlyLogo,
-      start: "2024",
+      company: "La Jolla Institute for Immunology",
+      link: "https://www.lji.org", // Official LJI link
+      badges: ["Immunology", "T-cell", "Cancer Research"],
+      title: "Postdoctoral Fellow",
+      logo: ConsultlyLogo, // No specific logo match, retaining original as placeholder
+      start: "2025",
       end: null,
       description: (
         <>
-          Leading technical architecture of a blockchain-based film funding
-          platform.
+          Conducting research on T cell biology and cancer immunotherapy.
           <ul className="list-inside list-disc">
             <li>
-              Architecting migration from CRA to Next.js for improved
-              performance, SEO, and DX
+              Design and implement molecular techniques to study immune signaling
             </li>
             <li>
-              Established release process enabling faster deployments and
-              reliable rollbacks
+              Collaborate on translational immunology research for therapeutic targets
             </li>
             <li>
-              Implementing system-wide monitoring and security improvements
+              Mentor junior researchers and present findings at scientific conferences
             </li>
           </ul>
         </>
       ),
     },
     {
-      company: "Parabol",
-      link: "https://parabol.co",
-      badges: [
-        "Remote",
-        "React",
-        "TypeScript",
-        "Node.js",
-        "GraphQL",
-        "Tailwind CSS",
-      ],
-      title: "Senior Full Stack Developer",
-      logo: ParabolLogo,
-      start: "2021",
+      company: "Texas A&M University",
+      link: "https://ibt.tamu.edu/index.html",
+      badges: ["Protein Engineering", "CRISPR"],
+      title: "Postdoctoral Research Fellow",
+      logo: ParabolLogo, // No specific logo match, retaining original as placeholder
+      start: "2024",
       end: "2024",
       description: (
         <>
-          Senior developer and squad leader for an enterprise agile meeting
-          platform.
+          Focused on protein engineering and immunotherapy development.
           <ul className="list-inside list-disc">
             <li>
-              Built design system with Tailwind CSS, improving development speed
-              and time to market
+              Optimized CRISPR genome-editing for gene function studies
             </li>
             <li>
-              Implemented engineering practices: PR automation, code review
-              guidelines, and workflows
+              Designed optogenetic/chemogenetic systems for cellular signaling
             </li>
             <li>
-              Open source contributions to Relay DevTools and React i18n tooling
+              Authored high-impact publications on cancer progression mechanisms
             </li>
           </ul>
         </>
       ),
+      
     },
     {
-      company: "Clevertech",
-      link: "https://clevertech.biz",
-      badges: ["Remote", "React", "TypeScript", "Node.js", "Android", "Kotlin"],
-      title: "Lead Android Developer → Full Stack Developer",
-      logo: ClevertechLogo,
-      start: "2015",
-      end: "2021",
+      company: "Texas A&M University",
+      link: "https://ibt.tamu.edu/index.html",
+      badges: ["Imaging", "NGS", "Optogenetics"],
+      title: "PhD Student",
+      logo: ClevertechLogo, // No specific logo match, retaining original as placeholder
+      start: "2018",
+      end: "2024",
       description: (
         <>
-          Successfully transitioned from mobile to full-stack development while
-          leading distributed teams.
+          Engineered drug-responsive and light-controllable protein systems.
           <ul className="list-inside list-disc">
             <li>
-              Led frontend team at Evercast, building real-time platform
-              supporting 30+ users per room with HD streaming and collaboration
-              tools
+              Investigated fusion genes in renal cell carcinoma with multi-omic sequencing
             </li>
             <li>
-              Developed offline-first Android app for DKMS, improving donor
-              registration process
+              Developed CRISPR-knock-in systems with dTAG technology
             </li>
             <li>
-              Led development teams across multiple successful client projects
+              Mentored students and contributed to 10 peer-reviewed publications
             </li>
           </ul>
         </>
       ),
     },
     {
-      company: "Jojo Mobile",
-      link: "https://bsgroup.eu/",
-      badges: ["On Site", "Android", "Java", "Kotlin"],
-      title: "Android Developer → Lead Android Developer",
-      logo: JojoMobileLogo,
-      start: "2012",
-      end: "2015",
+      company: "Texas A&M University",
+      link: "https://ibt.tamu.edu/index.html", // Specific Health Science Center link
+      badges: ["Genomics", "Animal Study"],
+      title: "Research Assistant",
+      logo: JojoMobileLogo, // No specific logo match, retaining original as placeholder
+      start: "2017",
+      end: "2018",
       description: (
         <>
-          First Android developer, grew and led a team of 15+ engineers while
-          establishing engineering culture.
+          Studied aging effects on genome maintenance in liver regeneration.
           <ul className="list-inside list-disc">
-            <li>
-              Developed apps for major Polish companies including LOT, Polskie
-              Radio, and Agora
-            </li>
-            <li>Built and mentored high-performing mobile development team</li>
+            <li>Performed partial hepatectomy in mice models</li>
+            <li>Conducted immunohistochemical staining and data analysis</li>
           </ul>
         </>
       ),
     },
-    {
-      company: "Nokia Siemens Networks",
-      link: "https://www.nokia.com",
-      badges: ["On Site", "C/C++", "LTE", "Agile"],
-      title: "C/C++ Developer",
-      logo: NSNLogo,
-      start: "2010",
-      end: "2012",
-      description:
-        "Developed software for LTE base stations at enterprise scale, gaining strong fundamentals in software architecture, testing practices, and cross-team collaboration.",
-    },
+
   ],
   skills: [
-    "React/Next.js/Remix",
-    "TypeScript",
-    "Tailwind CSS",
-    "Design Systems",
-    "WebRTC",
-    "WebSockets",
-    "Node.js",
-    "GraphQL",
-    "Relay",
-    "System Architecture",
-    "Remote Team Leadership",
+    "Next Generation Sequencing (NGS)",
+    "CRISPR Genome Editing",
+    "Protein Engineering",
+    "Molecular cloning",
+    "Python",
+    "R",
+    "Cytiva AKTA (Protein Purification)",
+  ],
+  publications: [
+    {
+      "title": "Optogenetic engineering to probe the molecular choreography of STIM1-mediated cell signaling",
+      "authors": "G Ma, L He, S Liu, J Xie, Z Huang, J Jing, YT Lee, R Wang, H Luo, W Han, Y Huang, Y Zhou",
+      "journal": "Nature Communications",
+      "year": "2020",
+      "url": "https://www.nature.com/articles/s41467-020-14841-9"
+    },
+    {
+      "title": "Visible light excited ratiometric-GECIs for long-term in-cellulo monitoring of calcium signals",
+      "authors": "J Li, L Wang, Y Chen, Y Yang, J Liu, K Liu, YT Lee, N He, Y Zhou, Y Wang",
+      "journal": "Cell Calcium",
+      "year": "2020",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0143416020300075"
+    },
+    {
+      "title": "Expanding the chemogenetic toolbox by circular permutation",
+      "authors": "YT Lee, L He, Y Zhou",
+      "journal": "Journal of Molecular Biology",
+      "year": "2020",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0022283620302783?via%3Dihub"
+    },
+    {
+      "title": "Identification of a STIM1 splicing variant that promotes glioblastoma growth",
+      "authors": "J Xie, G Ma, L Zhou, L He, Z Zhang, P Tan, Z Huang, S Fang, T Wang, YT Lee, S Wen, S Siwko, L Wang, Y Du, N Zhang, X Liu, L Han, Y Huang, R Wang,Y Wang, Y Zhou, W Han",
+      "journal": "Advanced Science",
+      "year": "2022",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1002/advs.202103940"
+    },
+    {
+      "title": "Optogenetic control of calcium influx in mammalian cells",
+      "authors": "YT Lee, R Chen, Y Zhou, L He",
+      "journal": "Methods in Enzymology",
+      "year": "2021",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0076687921000929"
+    },
+    {
+      "title": "Proteomic mapping and optogenetic manipulation of membrane contact sites",
+      "authors": "G Lin, W Shi, N Zhang, YT Lee, Y Wang, J Jing",
+      "journal": "Biochemical Journal",
+      "year": "2022",
+      "url": "https://portlandpress.com/biochemj/article/479/17/1857/231892"
+    },
+    {
+      "title": "Ten-eleven translocation ablation impairs cardiac differentiation of mouse embryonic stem cells",
+      "authors": "S Fang, D Cui, T Hong, L Guo, YT Lee, M Lee, S Isgandarova, M Martinez-Moczygemba, Y Zhou, J Li, Y Huang",
+      "journal": "Stem Cells",
+      "year": "2022",
+      "url": "https://academic.oup.com/stmcls/article/40/3/260/6529349"
+    },
+    {
+      "title": "Targeting epigenetic regulatory machinery to overcome cancer therapy resistance",
+      "authors": "L Guo, YT Lee, Y Zhou, Y Huang",
+      "journal": "Seminars in Cancer Biology",
+      "year": "2022",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S1044579X20302820?via%3Dihub"
+    },
+    {
+      "title": "Light-activated macromolecular phase separation modulates transcription by reconfiguring chromatin interactions",
+      "authors": "YJ Kim, M Lee Jr, YT Lee, J Jing, JT Sanders, GA Botten, L He, J Lyu, Y Zhang, M Mettlen, P LY, Y Zhou, J Xu",
+      "journal": "Science Advances",
+      "year": "2023",
+      "url": "https://www.science.org/doi/10.1126/sciadv.adg1123"
+    },
+    {
+      "title": "Optogenetic engineering of STING signaling allows remote immunomodulation to enhance cancer immunotherapy",
+      "authors": "Y Dou, R Chen, S Liu, YT Lee, J Jing, X Liu, Y Ke, R Wang, Y Zhou, Y Huang",
+      "journal": "Nature Communications",
+      "year": "2023",
+      "url": "https://www.nature.com/articles/s41467-023-41164-2"
+    },
+    {
+      "title": "A Chemogenetic Toolkit for Inducible, Cell Type-Specific Actin Disassembly",
+      "authors": "TH Lan, N Ambiel, YT Lee, T Nonomura, Y Zhou, JB Zuchero",
+      "journal": "Small Methods",
+      "year": "2025",
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/smtd.202401522"
+    },
   ],
   projects: [
     {
-      title: "Monito",
-      techStack: ["TypeScript", "Next.js", "Browser Extension", "PostgreSQL"],
+      title: "Optogenetic Engineering of STIM1 Signaling", // From your publications
+      techStack: ["Optogenetics", "CRISPR", "Molecular Biology"],
       description:
-        "Browser extension for debugging web applications. Includes taking screenshots, screen recording, E2E tests generation and generating bug reports",
-      logo: MonitoLogo,
+        "Probed molecular choreography of STIM1-mediated cell signaling (Nature Communications, 2020).",
+      logo: MonitoLogo, // No specific logo match, retaining original as placeholder
       link: {
-        label: "monito.dev",
-        href: "https://monito.dev/",
+        label: "Publication",
+        href: "https://pubmed.ncbi.nlm.nih.gov/32098964/",
       },
     },
     {
-      title: "Consultly",
-      techStack: [
-        "TypeScript",
-        "Next.js",
-        "Vite",
-        "GraphQL",
-        "WebRTC",
-        "Tailwind CSS",
-        "PostgreSQL",
-        "Redis",
-      ],
+      title: "Targeting Epigenetic Machinery in Cancer", // From your publications
+      techStack: ["Epigenetics", "Cancer Research", "Molecular Biology"],
       description:
-        "Platform for online consultations with real-time video meetings and scheduling",
-      logo: ConsultlyLogo,
+        "Developed strategies to overcome cancer therapy resistance (Seminars in Cancer Biology, 2021).",
+      logo: ConsultlyLogo, // No specific logo match, retaining original as placeholder
       link: {
-        label: "consultly.com",
-        href: "https://consultly.com/",
+        label: "Publication",
+        href: "https://pubmed.ncbi.nlm.nih.gov/33421619/",
       },
     },
+    // Retained original project as you have no direct equivalent for a standalone software project
     {
       title: "Minimalist CV",
       techStack: ["TypeScript", "Next.js", "Tailwind CSS"],

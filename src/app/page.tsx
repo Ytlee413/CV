@@ -7,6 +7,7 @@ import { Education } from "./components/Education";
 import { Summary } from "./components/Summary";
 import { Skills } from "./components/Skills";
 import { Header } from "./components/Header";
+import { Publications } from "./components/Publications";
 
 export const metadata: Metadata = {
   title: `${RESUME_DATA.name} - Resume`,
@@ -66,7 +67,7 @@ export default function ResumePage() {
       </div>
 
       <section
-        className="mx-auto w-full max-w-2xl space-y-8 bg-white print:space-y-4"
+        className="mx-auto w-full max-w-4xl space-y-8 bg-white print:space-y-4"
         aria-label="Resume Content"
       >
         <Header />
@@ -79,6 +80,8 @@ export default function ResumePage() {
           <Education education={RESUME_DATA.education} />
 
           <Skills skills={RESUME_DATA.skills} />
+
+          <Publications publications={RESUME_DATA.publications} />
 
           <Projects projects={RESUME_DATA.projects} />
         </div>
