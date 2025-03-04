@@ -87,6 +87,10 @@ export default function ResumePage() {
         </div>
       </section>
 
+      <div className="text-xs text-right text-gray-500 mt-4">
+        This cv is based on fantastic work by <a href="https://github.com/BartoszJarocki/cv" className="underline">Bartosz Jarocki</a>.
+      </div>
+
       <nav className="print:hidden" aria-label="Quick navigation">
         <CommandMenu links={getCommandMenuLinks()} />
       </nav>
