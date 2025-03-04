@@ -256,37 +256,14 @@ export const RESUME_DATA = {
   ],
   projects: [
     {
-      title: "Optogenetic Engineering of STIM1 Signaling", // From your publications
-      techStack: ["Optogenetics", "CRISPR", "Molecular Biology"],
+      title: "Plasmid Sequencing Toolkit", 
+      techStack: ["Python", "R"],
       description:
-        "Probed molecular choreography of STIM1-mediated cell signaling (Nature Communications, 2020).",
+        "A bioinformatics toolkit designed to simplify plasmid sequencing analysis for researchers.",
       logo: MonitoLogo, // No specific logo match, retaining original as placeholder
       link: {
         label: "Publication",
-        href: "https://pubmed.ncbi.nlm.nih.gov/32098964/",
-      },
-    },
-    {
-      title: "Targeting Epigenetic Machinery in Cancer", // From your publications
-      techStack: ["Epigenetics", "Cancer Research", "Molecular Biology"],
-      description:
-        "Developed strategies to overcome cancer therapy resistance (Seminars in Cancer Biology, 2021).",
-      logo: ConsultlyLogo, // No specific logo match, retaining original as placeholder
-      link: {
-        label: "Publication",
-        href: "https://pubmed.ncbi.nlm.nih.gov/33421619/",
-      },
-    },
-    // Retained original project as you have no direct equivalent for a standalone software project
-    {
-      title: "Minimalist CV",
-      techStack: ["TypeScript", "Next.js", "Tailwind CSS"],
-      description:
-        "An open source minimalist, print friendly CV template with a focus on readability and clean design. >9k stars on GitHub",
-      logo: MonitoLogo,
-      link: {
-        label: "Minimalist CV",
-        href: "https://github.com/BartoszJarocki/cv",
+        href: "https://github.com/Ytlee413/Bioinfo/tree/main",
       },
     },
   ],
